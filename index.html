@@ -43,9 +43,9 @@
                     <div class="modal-body text-dark">
                         <form id="reserve">
                             <div class="form-group row">
-                                    <label for="campReservation" class="col-sm-6 col-form-label">Number of Campers</label>
+                                    <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
                                         <div class="col">
-                                        <select class="form-control" id="campReservations">
+                                        <select class="form-control" id="numCampers">
                                             <option selected>Select...</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -245,45 +245,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-content align-items-center">
-            <div class="col-sm-6 mx-auto">
-                <div class="card">
-                <h3 class="card-header bg-info text-light">Reserve a Campsite</h3>
-                    <div class="card-body">
-                        <form id="reserveForm">
-                        <div class="form-group row">
-                            <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
-                                <div class="col">
-                                <select class="form-control" id="numCampers">
-                                    <option selected>Select...</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                </select>
-                                </div>
-                        </div>
-                        <!-- Date -->
-                        <div class="form-group row">
-                            <label for="date" class="col-sm-6 col-form-label">Date</label>
-                                <div class="col">
-                                <input type="date" class="form-control" id="date" name="date" placeholder="Date">
-                                </div>
-                        </div>
-                        <!-- Button -->
-                        <div class="form-group-row">
-                            <div class="col">
-                                <a href="#" class="btn btn-primary">Reserve</a>
-                            </div>
-                        </div> 
-                        </form>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
+
 
     <footer class="site-footer">
         <div class="container">
